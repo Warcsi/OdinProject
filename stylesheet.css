@@ -29,6 +29,12 @@ body{
     margin-left: auto;
     margin-right: auto
 }
+li a{
+    transition: 0.3s;
+}
+li a:hover{
+    color:#f9faf8;
+}
 .subtext{
     margin-bottom: 0.5em;
 
@@ -95,6 +101,74 @@ button{
 }
 
 
+h1{
+    text-align: center;
+    color: #1f2937;
+    font-weight: bold;
+}
+#icons{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap:4em;
+}
+.icon{
+    border: 5px solid #3882f6;
 
+    height: 150px;
+    border-radius: 8px;
+}
+.qoutebox{
+    height: 40%;
+    background-color: #e5e7eb;
+    
+    align-items: center;
 
-
+}
+.qoute{
+    width: 60%;
+    padding-top:2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:36px;
+    font-style: italic;
+    color:#3d4247;
+    font-weight: normal;
+    text-align: center;
+}
+.author{
+    font-size: 2em;
+    text-align: right;
+    margin-right:20%;
+    font-weight: bolder;
+    font-style: italic;
+}
+.main{
+    height:40%;
+}
+.callToAction{    
+    position: relative;
+    
+    flex-direction: column;
+    top:20%;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;    
+}
+.callToAction button{
+    border:1px solid white;
+}
+.flexcontainer{
+    display: flex;
+}
+footer{
+    text-align: center;
+    color:#e5e7eb
+}
