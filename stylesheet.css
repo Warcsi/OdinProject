@@ -84,6 +84,7 @@ button,.callToAction{
     border-radius: 5px;
     text-align: center;
     padding: 5px;
+    transition: 0.3s;
 }
 button{
     display: block;
@@ -174,6 +175,7 @@ h1{
 .callToAction button{
     border:1px solid white;
 }
+
 .left2{
     width: 60%;
 }
